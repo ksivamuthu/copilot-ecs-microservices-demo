@@ -15,7 +15,7 @@ source:
   # has the following properties: repository, branch.
   properties:
     access_token_secret: github-token-codeandcoffee-copilot-ecs-microservices-demo
-    branch: main
+    branch: master
     repository: https://github.com/ksivamuthu/copilot-ecs-microservices-demo
 
 # The deployment section defines the order the pipeline will deploy
