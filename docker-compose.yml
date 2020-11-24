@@ -6,7 +6,7 @@ services:
   coffeeservice:
     image: coffeeservice
     build:
-      context: .
-      dockerfile: CoffeeService/Dockerfile
+      context: CoffeeService
+      dockerfile: Dockerfile
     ports:
       - 80
